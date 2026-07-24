@@ -1,8 +1,17 @@
 aid: basic-capital
 name: Basic Capital
-description: 'Basic Capital is a company surfaced as a portfolio company of forerunner-ventures, lux-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Basic Capital is a modern 401(k) platform that reimagines workplace retirement
+  saving. It is the first and only 401(k) provider that lets participants finance assets
+  inside their plan, offering $4 of financing for every $1 contributed for up to 5x
+  investing power, alongside access to alternative and private-market investments. The
+  platform pairs a mobile-first participant experience with 6,000+ investment options,
+  a built-in brokerage window, support for mega backdoor Roth contributions, and its
+  "Retirement Mortgage" long-term financing product. Basic Capital serves employers,
+  employees, and financial advisors, with an IRA offering for individuals. Founded to
+  modernize a retirement system largely unchanged for 40 years, the company is headquartered
+  in New York City and closed a $25M Series A in 2025 led by Forerunner and Lux Capital,
+  with participation from SV Angel, BoxGroup, and Henry Kravis. This API Evangelist
+  profile tracks the company; Basic Capital does not publish a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/basic-capital/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +20,29 @@ x-backed-by:
 - lux-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/fQmJWydUZuvLE8a8M2lPwVK9T38.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Retirement
+- 401k
+- Investing
+- Wealth Management
+- Financial Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +52,36 @@ maintainers:
 common:
 - type: Website
   url: https://basiccapital.com
+- type: Blog
+  url: https://basiccapital.com/learn
+- type: SignUp
+  url: https://basiccapital.com/get-started
+- type: Pricing
+  url: https://basiccapital.com/pricing
+- type: Support
+  url: mailto:hello@basiccapital.com
+- type: TermsOfService
+  url: https://app.termly.io/policy-viewer/policy.html?policyUUID=56a26f98-d16c-4837-8246-b82903d339a8
+- type: PrivacyPolicy
+  url: https://app.termly.io/policy-viewer/policy.html?policyUUID=571f7e49-2f9a-4184-9885-97d687377ef8
+- type: TrustCenter
+  url: security/basic-capital-trust-center.yml
+- type: Compliance
+  url: https://app.vanta.com/basiccapital/trust/k0kvr8erc1cd6y8d3kibe6
+- type: Security
+  url: https://basiccapital.com/.well-known/security.txt
+- type: SecurityTxt
+  url: well-known/basic-capital-security.txt
+- type: WellKnown
+  url: well-known/basic-capital-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/basic-capital-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/basic-capital-domain-security.yml
+- type: LLMsTxt
+  url: llms/basic-capital-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

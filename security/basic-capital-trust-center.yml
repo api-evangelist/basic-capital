@@ -1,0 +1,12 @@
+generated: '2026-07-18'
+method: searched
+source: https://basiccapital.com
+url: https://app.vanta.com/basiccapital/trust/k0kvr8erc1cd6y8d3kibe6
+certifications:
+- SOC 2
+evidence:
+- source: https://basiccapital.com
+  kind: homepage compliance link labeled "SOC 2" pointing to the Vanta Trust Center
+- source: https://app.vanta.com/basiccapital/trust/k0kvr8erc1cd6y8d3kibe6
+  kind: Vanta-hosted trust center
+notes: Basic Capital publishes a Vanta-hosted trust center; the website surfaces a SOC 2 compliance badge linking to it.

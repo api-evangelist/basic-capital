@@ -1,0 +1,24 @@
+# Basic Capital
+
+> Basic Capital is a modern 401(k) platform that lets participants finance assets inside their retirement plan — offering $4 of financing for every $1 contributed for up to 5x investing power — plus access to alternative and private-market investments, 6,000+ investment options, a built-in brokerage window, mega backdoor Roth support, and its "Retirement Mortgage" product. It serves employers, employees, and advisors, with an IRA offering for individuals. HQ New York City; $25M Series A (2025) led by Forerunner and Lux Capital. Basic Capital does not publish a public developer API; this profile tracks the company for the API Evangelist network.
+
+## Company
+- [Website](https://basiccapital.com): Basic Capital home
+- [For Employers](https://basiccapital.com/for-employers): 401(k) solutions for companies
+- [For Employees](https://basiccapital.com/for-employees): Participant investing experience
+- [For Advisors](https://basiccapital.com/for-advisors): Advisor tools for retirement plans
+- [For Individuals](https://basiccapital.com/for-individuals): IRA offering and pricing
+- [Get Started](https://basiccapital.com/get-started): Sign up
+- [Learn](https://basiccapital.com/learn): Articles and resources
+- [Careers](https://basiccapital.com/careers): Open roles
+
+## Security & Compliance
+- [security.txt](https://basiccapital.com/.well-known/security.txt): RFC 9116 disclosure contact (security@basiccapital.com)
+- [Trust Center](https://app.vanta.com/basiccapital/trust/k0kvr8erc1cd6y8d3kibe6): Vanta-hosted, SOC 2
+
+## Legal
+- [Terms of Service](https://app.termly.io/policy-viewer/policy.html?policyUUID=56a26f98-d16c-4837-8246-b82903d339a8)
+- [Privacy Policy](https://app.termly.io/policy-viewer/policy.html?policyUUID=571f7e49-2f9a-4184-9885-97d687377ef8)
+
+## API Evangelist artifacts
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/basic-capital/refs/heads/main/apis.yml): APIs.json company profile
